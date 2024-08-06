@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Music Player</title>
+    <link rel="stylesheet" href="./src/css/index.css" />
+    <!--========== BOX ICONS ==========-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- navigation menu -->
+
+    <header>
+      <div class="nav">
+        <div class="brand"><h1>Maliki</h1></div>
+        <ul>
+          <li>Home</li>
+          <li>About Us</li>
+        </ul>
+        <div class="nav__toggle" id="nav-toggle ">
+          <i class="bx bx-menu"></i>
+        </div>
+      </div>
+    </header>
+
+    <div class="menu showmenu">
+      <div class="mobile__nav">
+        <ul>
+          <li>Home</li>
+          <li>About Us</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- navigation menu  ends -->
+
+    <!-- container grid -->
+    <div class="container">
+      <!-- logo image -->
+      <div class="brand-wrapper flex">
+        <div class="wrapper">
+          <div class="circle-brand flex">
+            <h1>Maliki</h1>
+          </div>
+          <div class="btns">
+            <div class="previous">
+              <i class="bx bxs-skip-previous-circle"></i>
+            </div>
+            <div class="play"><i class="bx bx-play-circle"></i></div>
+            <div class="pause"><i class="bx bx-pause-circle"></i></div>
+            <div class="next"><i class="bx bxs-skip-next-circle"></i></div>
+            <div class="shuffle"><i class='bx bx-shuffle'></i></div>
+          </div>
+
+          <div class="higlight-name-display"></div>
+          <div class="flex" id="reset"><p>Reset Playlist</p></div>
+        </div>
+      </div>
+
+      <!-- music playlist -->
+      <div class="playsong-lists">
+
+        <div class="playlist-text">
+          <i class="bx bx-chevrons-left"></i>
+          <i class="bx bx-chevrons-left"></i>
+          <i class="bx bx-chevrons-left"></i>
+          <h2>Playlist</h2>
+          <i class="bx bxs-chevrons-right"></i>
+          <i class="bx bxs-chevrons-right"></i>
+          <i class="bx bxs-chevrons-right"></i>
+        </div>
+        <div class="lists flex">
+        
+        </div>
+      </div>
+    </div>
+
+    <script src="./src/js/index.js"></script>
+    <script src="./src/js/data.js"></script>
+  </body>
+</html>
